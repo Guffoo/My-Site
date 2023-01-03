@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+
+
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #EAFDFC;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    margin: 100px auto 0;
+    font-size: 6rem;
+    padding: 100px;
+    color: #91D8E4;
+}
+
+
+h2{
+    font-size: 2rem;
+}
+
+
+h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #82AAE3;
+    padding: 30px;
+}
+
+p{
+    font-size: large;
+    margin: 0 auto;
+    color: #40514E;
+}
+
+
+hr{
+    border-style: dotted none none none;
+    width: 5%;
+    border-width: 0.5rem;
+    margin: 50px auto;
+
+}
+
+.top{
+    margin-top: 30px;
+
+}
+
+
+
+.top-cloud{
+    position: absolute;
+    right: 550px;
+    top: 60px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 500px;
+}
+
+.mountain{
+    width: 45%;
+}
+
+.profile{
+   margin: 100px auto;
+   font-size: large;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.computer{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies{
+    width: 20%;
+    float: right;
+}
+
+
+.contact-me{
+    margin: 50px auto;
+}
+
+.contact-message{
+    width: 40%;
+    padding-bottom: 50px;
+}
+
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #6dbaed;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #8bccf5;
+    text-decoration: none;
+  }
+
+
+  .bottom-container{
+    width: auto;
+    height: 5rem;
+    background-color: #40514E;
+    padding: 50px 0 20px;
+  }
+
+  .footer-link{
+    color: #EAFDFC;
+    text-decoration: none;
+    padding: 2rem;
+  }
+
+  .footer-link:hover{
+     color: #c5d6d5;
+  }
+
+
+  .footer-p{
+    color: #EAFDFC;
+    margin: 2rem;
+  }
